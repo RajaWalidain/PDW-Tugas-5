@@ -1,0 +1,126 @@
+body {
+    background: url(Purple\ header.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    padding: auto;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    background-color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    background-color: blueviolet;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+.title {
+    font-size: 100 px;
+    text-align: justify;
+}
+
+.content {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    color: white;
+}
+
+.search {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.search input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search button {
+    float: right;
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+.social-links {
+    margin-top: 20px;
+}
+
+.fitur-ssstiktok {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.download {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.penjelasan {
+    width: 500px;
+    text-align: left;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+.tutorial-download {
+    margin-top: 20px;
+    text-align: center;
+} 
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+.questions {
+    list-style: none;
+    font-size: 120%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    box-sizing: border-box;
+    }
+  
+.questions li {
+    margin-bottom: 10px;
+    border: 20px solid gainsboro;
+    background-color: gainsboro;
+}
+  
+.questions li label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
